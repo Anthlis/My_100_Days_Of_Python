@@ -1,7 +1,5 @@
 # #100DaysOfCode with Python course
 
-[![Visit the course page](https://training.talkpython.fm/courses/explore_100days_in_python/100-days-of-code-in-python)
-
 Course details page: [**talkpython.fm/100days**](https://talkpython.fm/100days?utm_source=github)
 
 ## Course Summary
