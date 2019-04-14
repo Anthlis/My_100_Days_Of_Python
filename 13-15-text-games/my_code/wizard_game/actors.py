@@ -23,7 +23,7 @@ class Wizard(Creature):
     def attack(self, creature):
         print(f'The wizard {self.name} attacks {creature.name}!')
 
-        #my_roll = random.randint(1, 12) * self.level
+        # my_roll = random.randint(1, 12) * self.level
         my_roll = creature.get_defensive_roll()
         # creature_roll = random.randint(1, 12) * self.level
         creature_roll = creature.get_defensive_roll()
