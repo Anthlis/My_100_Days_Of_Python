@@ -1,8 +1,6 @@
 # #100DaysOfCode with Python course
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/talkpython/100daysofcode-with-python-course.git/master)
 
-
-[![Visit the course page](readme_resources/100days-course.png)](https://training.talkpython.fm/courses/explore_100days_in_python/100-days-of-code-in-python)
+[![Visit the course page](https://training.talkpython.fm/courses/explore_100days_in_python/100-days-of-code-in-python)
 
 Course details page: [**talkpython.fm/100days**](https://talkpython.fm/100days?utm_source=github)
 
@@ -38,8 +36,6 @@ This course is for anyone who wants to immerse themselves in Python for 100 days
 We don’t start from absolute zero in terms of programming but if you are new to Python we have a language appendix and we start somewhat slow. By the end of the course, we get into intermediate-level Python projects.
 
 ## Course flow and the 33 projects
-
-![Course flow](readme_resources/100days-course-flow.png)
 
 We have broken the 100 days worth of coding into 33 3-day segments. As you can see, the first day is largely learning the new topics (HTTP APIs, web scraping, databases, etc.). The following two days have some guidance but is much more hands-on than the first day.
 
