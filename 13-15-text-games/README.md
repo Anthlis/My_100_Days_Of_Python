@@ -10,7 +10,7 @@ We are going to build **Rock Paper Scissors**. That will be day 13, 14, and 15.
 
 For those of you who get through this challenge quickly and want a bigger challenge, we have something special to stretch yourself with. Behold, **15-way Rock Paper Scissors**!
 
-![](./rps15.jpg)
+![](rps15.jpg)
 
 Image credit: [David Lovelace](http://www.umop.com/rps15.htm)
 
@@ -85,7 +85,7 @@ Do you have extra time left over and want to try the 15-way rock paper scissors?
 
 Behold **15-way Rock Paper Scissors**!
 
-![](./rps15.jpg)
+![](rps15.jpg)
 
 The way you read this graphic is if an arrow points from one item to another, that pointed-to item is defeated.
 
