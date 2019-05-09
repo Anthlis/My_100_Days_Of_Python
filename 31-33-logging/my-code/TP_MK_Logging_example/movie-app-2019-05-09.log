@@ -1,0 +1,92 @@
+[2019-05-09 00:47:51.898876] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: movie-app.log
+[2019-05-09 00:47:55.842914] TRACE: API: Starting search for action
+[2019-05-09 00:47:56.390940] TRACE: API: Request finished, status code 200.
+[2019-05-09 00:47:56.391435] TRACE: API: Finished search for action, 8 results in 548 ms.
+[2019-05-09 00:47:56.392427] TRACE: App: Search successful: keyword: action, 8 results.
+[2019-05-09 01:14:52.116218] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: movie-app.log
+[2019-05-09 01:14:56.995335] TRACE: API: Starting search for air
+[2019-05-09 01:14:57.444713] TRACE: API: Request finished, status code 200.
+[2019-05-09 01:14:57.445211] ERROR: App: 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "C:\Users\ListerA\OneDrive\macfiles\Thonny\Logging\Logging_example\program.py", line 12, in main
+    results = api.find_movie_by_title(keyword)
+  File "C:\Users\ListerA\OneDrive\macfiles\Thonny\Logging\Logging_example\api.py", line 36, in find_movie_by_title
+    for r in results.get('hits'):
+TypeError: 'NoneType' object is not iterable
+[2019-05-09 01:15:34.247401] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: movie-app.log
+[2019-05-09 01:15:36.203903] TRACE: API: Starting search for peach
+[2019-05-09 01:15:36.649513] TRACE: API: Request finished, status code 200.
+[2019-05-09 01:15:36.650009] TRACE: API: Finished search for peach, 0 results in 445 ms.
+[2019-05-09 01:15:36.650009] TRACE: App: Search successful: keyword: peach, 0 results.
+[2019-05-09 01:18:01.090126] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: movie-app.log
+[2019-05-09 01:18:04.116066] TRACE: API: Starting search for tom
+[2019-05-09 01:18:04.564355] TRACE: API: Request finished, status code 200.
+[2019-05-09 01:18:04.564850] ERROR: App: 
+Traceback (most recent call last):
+  File "C:\Users\ListerA\OneDrive\macfiles\Thonny\Logging\Logging_example\program.py", line 12, in main
+    results = api.find_movie_by_title(keyword)
+  File "C:\Users\ListerA\OneDrive\macfiles\Thonny\Logging\Logging_example\api.py", line 32, in find_movie_by_title
+    results = create_random_errors(results)
+  File "C:\Users\ListerA\OneDrive\macfiles\Thonny\Logging\Logging_example\api.py", line 55, in create_random_errors
+    raise StopIteration()
+StopIteration
+[2019-05-09 01:18:41.890295] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: movie-app.log
+[2019-05-09 01:18:43.605381] TRACE: API: Starting search for air
+[2019-05-09 01:18:44.051284] TRACE: API: Request finished, status code 200.
+[2019-05-09 01:18:44.051780] TRACE: API: Finished search for air, 10 results in 446 ms.
+[2019-05-09 01:18:44.053268] TRACE: App: Search successful: keyword: air, 10 results.
+[2019-05-09 01:18:49.793085] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: movie-app.log
+[2019-05-09 01:18:50.956555] TRACE: API: Starting search for air
+[2019-05-09 01:18:51.396478] TRACE: API: Request finished, status code 200.
+[2019-05-09 01:18:51.396974] TRACE: API: Finished search for air, 10 results in 440 ms.
+[2019-05-09 01:18:51.398460] TRACE: App: Search successful: keyword: air, 10 results.
+[2019-05-09 01:18:54.918093] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: movie-app.log
+[2019-05-09 01:18:55.780714] TRACE: API: Starting search for air
+[2019-05-09 01:18:56.231086] TRACE: API: Request finished, status code 200.
+[2019-05-09 01:18:56.231582] TRACE: API: Finished search for air, 10 results in 450 ms.
+[2019-05-09 01:18:56.233069] TRACE: App: Search successful: keyword: air, 10 results.
+[2019-05-09 01:18:59.316220] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: movie-app.log
+[2019-05-09 01:18:59.860412] TRACE: API: Starting search for air
+[2019-05-09 01:19:00.313884] TRACE: API: Request finished, status code 200.
+[2019-05-09 01:19:00.314381] TRACE: API: Finished search for air, 10 results in 454 ms.
+[2019-05-09 01:19:00.316364] TRACE: App: Search successful: keyword: air, 10 results.
+[2019-05-09 01:19:03.535915] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: movie-app.log
+[2019-05-09 01:19:05.516405] TRACE: API: Starting search for airp
+[2019-05-09 01:19:05.966607] TRACE: API: Request finished, status code 200.
+[2019-05-09 01:19:05.966607] TRACE: API: Finished search for airp, 1 results in 450 ms.
+[2019-05-09 01:19:05.967598] TRACE: App: Search successful: keyword: airp, 1 results.
+[2019-05-09 01:19:13.302398] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: movie-app.log
+[2019-05-09 01:19:14.236727] TRACE: API: Starting search for 
+[2019-05-09 01:19:14.236727] WARNING: API: No keyword supplied. 
+[2019-05-09 01:19:14.237223] WARNING: App: You must specify a search term.
+[2019-05-09 04:17:03.712703] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: movie-app.log
+[2019-05-09 04:17:06.937939] TRACE: API: Starting search for poo
+[2019-05-09 04:17:07.465796] TRACE: API: Request finished, status code 200.
+[2019-05-09 04:17:07.466785] TRACE: API: Finished search for poo, 9 results in 528 ms.
+[2019-05-09 04:17:07.468277] TRACE: App: Search successful: keyword: poo, 9 results.
+[2019-05-09 04:17:14.259466] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: movie-app.log
+[2019-05-09 04:17:16.065753] TRACE: API: Starting search for poo
+[2019-05-09 04:17:16.522135] TRACE: API: Request finished, status code 200.
+[2019-05-09 04:17:16.522631] ERROR: App: 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "C:\Users\ListerA\OneDrive\macfiles\Thonny\Logging\Logging_example\program.py", line 12, in main
+    results = api.find_movie_by_title(keyword)
+  File "C:\Users\ListerA\OneDrive\macfiles\Thonny\Logging\Logging_example\api.py", line 36, in find_movie_by_title
+    for r in results.get('hits'):
+TypeError: 'NoneType' object is not iterable
+[2019-05-09 04:47:55.856737] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: movie-app.log
+[2019-05-09 04:48:00.010121] TRACE: API: Starting search for air
+[2019-05-09 04:48:00.454945] TRACE: API: Request finished, status code 200.
+[2019-05-09 04:48:00.455441] ERROR: App: 
+Traceback (most recent call last):
+  File "C:\Users\ListerA\OneDrive\macfiles\Thonny\Logging\Logging_example\program.py", line 12, in main
+    results = api.find_movie_by_title(keyword)
+  File "C:\Users\ListerA\OneDrive\macfiles\Thonny\Logging\Logging_example\api.py", line 32, in find_movie_by_title
+    results = create_random_errors(results)
+  File "C:\Users\ListerA\OneDrive\macfiles\Thonny\Logging\Logging_example\api.py", line 55, in create_random_errors
+    raise StopIteration()
+StopIteration
+[2019-05-09 04:48:13.855540] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: movie-app.log
+[2019-05-09 04:48:15.337366] TRACE: API: Starting search for 
+[2019-05-09 04:48:15.337863] WARNING: API: No keyword supplied. 
+[2019-05-09 04:48:15.337863] WARNING: App: You must specify a search term.

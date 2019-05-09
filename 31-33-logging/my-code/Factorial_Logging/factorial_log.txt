@@ -1,0 +1,13 @@
+ 2019-05-10 11:27:09,359 - DEBUG - Start of program
+ 2019-05-10 11:27:09,359 - DEBUG - Start of factorial(5%)
+ 2019-05-10 11:27:09,359 - DEBUG - i is 1, total is 1
+ 2019-05-10 11:27:09,359 - DEBUG - End of factorial(5%)
+ 2019-05-10 11:27:09,360 - DEBUG - i is 2, total is 2
+ 2019-05-10 11:27:09,360 - DEBUG - End of factorial(5%)
+ 2019-05-10 11:27:09,360 - DEBUG - i is 3, total is 6
+ 2019-05-10 11:27:09,361 - DEBUG - End of factorial(5%)
+ 2019-05-10 11:27:09,361 - DEBUG - i is 4, total is 24
+ 2019-05-10 11:27:09,361 - DEBUG - End of factorial(5%)
+ 2019-05-10 11:27:09,363 - DEBUG - i is 5, total is 120
+ 2019-05-10 11:27:09,364 - DEBUG - End of factorial(5%)
+ 2019-05-10 11:27:09,364 - DEBUG - End of program
