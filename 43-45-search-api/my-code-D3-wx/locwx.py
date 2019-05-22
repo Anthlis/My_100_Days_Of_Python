@@ -1,8 +1,8 @@
 import requests
 from geopy import geocoders
 
-g = geocoders.GoogleV3(api_key='AIzaSyCVKQVwckpcGEYmpZvazgztyFO0KxMs5Vs')
-DARK_SKY_API_KEY = "f4407da6eafeb55869cdb6055591d6f5"
+g = geocoders.GoogleV3(api_key='')
+DARK_SKY_API_KEY = ""
 
 print(f"\n*********** Location Weather *****************\n")
 
