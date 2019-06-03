@@ -1,9 +1,10 @@
 import requests
 import uplink
 
+from uplink_helpers import raise_for_status
 
 @uplink.json
-# @raise_for_status
+@raise_for_status
 class MovieSearchClient(uplink.Consumer):
 
     def __init__(self):
@@ -21,11 +22,11 @@ class MovieSearchClient(uplink.Consumer):
 
 
     @uplink.get('/api/search/{director_name}')
-    def search_movies_by_keyword(self, director_name) -> requests.models.Response:
+    def search_movies_by_director(self, director_name) -> requests.models.Response:
         """ Search for a movie by director. """
 
 
     @uplink.get('/api/search/{imdb_number}')
-    def search_movies_by_keyword(self, imdb_number) -> requests.models.Response:
+    def search_movies_by_imdb(self, imdb_number) -> requests.models.Response:
         """ Search for a movie by IMDB code. """
 
