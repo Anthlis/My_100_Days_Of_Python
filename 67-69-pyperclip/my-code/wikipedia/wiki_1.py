@@ -1,2 +1,2 @@
 import wikipedia
-print(wikipedia.summary("Ubuntu")) 
+print(wikipedia.summary("Python (Programming Language"))
