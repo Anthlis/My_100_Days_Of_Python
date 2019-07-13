@@ -3,7 +3,7 @@ import uuid
 
 import flask
 from game_logic import game_service
-from game_logic.game import GameRound
+from game import GameRound
 
 
 def build_views(app):
